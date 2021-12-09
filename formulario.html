@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Formulario</title>
+     <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <h1 class="h1">Curriculum</h1>
+    <fieldset class="tabla">
+        <form action="respuesta.html" method="get">
+        <fieldset class="info">
+        <legend align="center"><strong><u>Información Basica</strong></u></legend>
+            <label>Nombre:</label> 
+            <br>
+            <input type="text" name="nombre" value=""  placeholder="Escribe aqui tu nombre"/> 
+            <br>
+            <label>Altura en centimetros</label>
+            <br>
+          
+            <input type="number" list="tickmarks" placeholder="centimetros">
+                      
+            <label><br>Email</label>
+            <br>
+            <input type="email" name="email" value="" placeholder="Escribe aqui tu email"/>
+            <br>
+            <label>Fecha de Nacimiento</label>
+            <br>
+            <input type="date" name="Nacimiento" value=""/>
+        </fieldset>
+        <fieldset class="Nacionalidad">
+            <legend align="center"><strong><u>Nacionalidad</strong></u></legend>
+            <input type="checkbox" name="Española" value="ESP"/>Española
+            <input type="checkbox" name="Comunitario" value="EU"/>Comunitario(EU)
+            <input type="checkbox" name="No Comunitario" value="Nocomu"/>No Comunitario
+            <br>
+        </fieldset>
+        <fieldset class="Estudios">
+            <legend align="center"><strong><u>Estudios</strong></u></legend>
+
+            <select name="Estudios">
+                <option value="ESO">ESO</option>
+                <option value="GM">GM</option>
+                <option value="GS">GS</option>
+                <option value="Estudis Universitaris">Estudios Universitarios</option>
+            </select> 
+        </fieldset>
+        <fieldset class="Idiomas">
+            <legend align="center"><strong><u>Idiomas</strong></u></legend>
+            <input type="checkbox" name="catalan" value=""/>Catalan
+            <input type="checkbox" name="Castellano" value=""/>Castellano
+            <input type="checkbox" name="Ingles" value=""/>Ingles
+            <input type="checkbox" name="Chino" value=""/>Chino
+    </fieldset>
+    <br>
+    <fieldset class="enviar">
+    <input type="submit" name="enviar" value="Enviar"/>
+    <input type="reset" name="cancelar" value="Cancelar"/>
+    </fieldset>
+    </form>
+    </fieldset>
+ 
+</body>
+</html>

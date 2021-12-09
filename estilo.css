@@ -1,0 +1,23 @@
+
+.tabla{
+    width: 800px;
+}
+.h1{ 
+    color:seagreen;
+    text-align: center;
+}
+.info{
+    background-color: rgb(226, 104, 33);
+}
+.Nacionalidad{
+    background-color: rgb(138, 226, 103);
+}
+.Estudios{
+    background-color: rgba(229, 164, 231, 0.849);
+}
+.Idiomas{
+    background-color: rgb(173, 232, 255);
+}
+.enviar{
+    background-color: gray;
+}
